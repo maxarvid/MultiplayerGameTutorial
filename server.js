@@ -26,9 +26,9 @@ io.on('connection', function(socket) {
 });
 
 // testing message TO BE REMOVED
-setInterval(function() {
-  io.sockets.emit('message', 'hi!')
-}, 1000);
+// setInterval(function() {
+//   io.sockets.emit('message', 'hi!')
+// }, 1000);
 
 // player keyboard input
 var players = {};
